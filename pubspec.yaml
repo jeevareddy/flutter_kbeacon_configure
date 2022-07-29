@@ -1,0 +1,27 @@
+name: kbeacon_configure
+description: A new flutter plugin project.
+version: 0.0.1
+# homepage:
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  quiver: ^3.1.0
+  # flutter_blue: ^0.8.0
+  flutter_blue_plus: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0  
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.kbeacon_configure
+        pluginClass: KbeaconConfigurePlugin
